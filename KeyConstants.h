@@ -3,7 +3,6 @@
 
 #include<map>
 #include<string>
-#endif // KEYCONSTANTS_H
 
 
 class KeyPair{
@@ -93,7 +92,7 @@ std::map<int, KeyPair> Keys::KEYS = {
     {0xDC, {"[VK_OEM_5]", "[OEM_5 (| \\)]"}},
     {0xDD, {"[VK_OEM_6]", "[OEM_6 (} ])]"}},
     {0xDE, {"[VK_OEM_7]", "[OEM_7 (\" ')]"}},
-    {0xDF, {"[VK_OEM_8]", "[OEM_8 (§ !)]"}},
+    {0xDF, {"[VK_OEM_8]", "[OEM_8 (ï¿½ !)]"}},
     {0xF0, {"[VK_OEM_ATTN]", "[Oem Attn]"}},
     {0xF3, {"[VK_OEM_AUTO]", "[Auto]"}},
     {0xE1, {"[VK_OEM_AX]", "[Ax]"}},
@@ -213,3 +212,5 @@ std::map<int, KeyPair> Keys::KEYS = {
     {0x05, {"[VK_XBUTTON1]", "[X Button 1 **]"}},
     {0x06, {"[VK_XBUTTON2]", "[X Button 2 **]"}},
 };
+
+#endif // KEYCONSTANTS_H
